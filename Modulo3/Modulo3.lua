@@ -168,4 +168,7 @@ local function raiz(x)
 end
 
 print(raiz(1))
-print(pcall(raiz, -1))
+print(pcall(raiz, -1)) -- retorna um boolean(true ou false, sucesso de execucao) e o erro se houver
+
+-- Biblioteca debug
+-- debug.traceback() --retorna a pilha de chamadas
